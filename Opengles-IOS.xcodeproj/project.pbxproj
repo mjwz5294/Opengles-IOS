@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0431D8FB21C0ED0B007D68BC /* FileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431D8F721C0ED0B007D68BC /* FileWrapper.m */; };
+		0431D8FC21C0ED0B007D68BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431D8FA21C0ED0B007D68BC /* ViewController.m */; };
+		0431D90221C0ED38007D68BC /* esTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = 0431D8FE21C0ED38007D68BC /* esTransform.c */; };
+		0431D90321C0ED38007D68BC /* esShapes.c in Sources */ = {isa = PBXBuildFile; fileRef = 0431D8FF21C0ED38007D68BC /* esShapes.c */; };
+		0431D90421C0ED38007D68BC /* esUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 0431D90021C0ED38007D68BC /* esUtil.c */; };
+		0431D90521C0ED38007D68BC /* esShader.c in Sources */ = {isa = PBXBuildFile; fileRef = 0431D90121C0ED38007D68BC /* esShader.c */; };
+		0431D90821C0EF63007D68BC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431D90721C0EF63007D68BC /* OpenGLES.framework */; };
+		0431D90A21C0EF6E007D68BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431D90921C0EF6E007D68BC /* GLKit.framework */; };
 		048889F221C0E05000F8949F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048889F121C0E05000F8949F /* AppDelegate.m */; };
-		048889F421C0E05000F8949F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 048889F321C0E05000F8949F /* GameScene.sks */; };
-		048889F621C0E05000F8949F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 048889F521C0E05000F8949F /* Actions.sks */; };
-		048889F921C0E05000F8949F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 048889F821C0E05000F8949F /* GameScene.m */; };
-		048889FC21C0E05000F8949F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048889FB21C0E05000F8949F /* GameViewController.m */; };
 		048889FF21C0E05000F8949F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048889FD21C0E05000F8949F /* Main.storyboard */; };
 		04888A0121C0E05200F8949F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04888A0021C0E05200F8949F /* Assets.xcassets */; };
 		04888A0421C0E05200F8949F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04888A0221C0E05200F8949F /* LaunchScreen.storyboard */; };
@@ -19,15 +23,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0431D8F721C0ED0B007D68BC /* FileWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWrapper.m; sourceTree = "<group>"; };
+		0431D8F821C0ED0B007D68BC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0431D8F921C0ED0B007D68BC /* FileWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWrapper.h; sourceTree = "<group>"; };
+		0431D8FA21C0ED0B007D68BC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0431D8FE21C0ED38007D68BC /* esTransform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esTransform.c; sourceTree = "<group>"; };
+		0431D8FF21C0ED38007D68BC /* esShapes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShapes.c; sourceTree = "<group>"; };
+		0431D90021C0ED38007D68BC /* esUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esUtil.c; sourceTree = "<group>"; };
+		0431D90121C0ED38007D68BC /* esShader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShader.c; sourceTree = "<group>"; };
+		0431D90721C0EF63007D68BC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0431D90921C0EF6E007D68BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		048889ED21C0E05000F8949F /* Opengles-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opengles-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048889F021C0E05000F8949F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048889F121C0E05000F8949F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		048889F321C0E05000F8949F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		048889F521C0E05000F8949F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		048889F721C0E05000F8949F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		048889F821C0E05000F8949F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		048889FA21C0E05000F8949F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		048889FB21C0E05000F8949F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		048889FE21C0E05000F8949F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04888A0021C0E05200F8949F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04888A0321C0E05200F8949F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,17 +48,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0431D90A21C0EF6E007D68BC /* GLKit.framework in Frameworks */,
+				0431D90821C0EF63007D68BC /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0431D8F621C0EC75007D68BC /* common */ = {
+			isa = PBXGroup;
+			children = (
+				04888A0021C0E05200F8949F /* Assets.xcassets */,
+				048889FD21C0E05000F8949F /* Main.storyboard */,
+				04888A0221C0E05200F8949F /* LaunchScreen.storyboard */,
+				04888A0621C0E05200F8949F /* main.m */,
+				048889F021C0E05000F8949F /* AppDelegate.h */,
+				048889F121C0E05000F8949F /* AppDelegate.m */,
+				0431D8F921C0ED0B007D68BC /* FileWrapper.h */,
+				0431D8F721C0ED0B007D68BC /* FileWrapper.m */,
+				0431D8F821C0ED0B007D68BC /* ViewController.h */,
+				0431D8FA21C0ED0B007D68BC /* ViewController.m */,
+				0431D8FD21C0ED27007D68BC /* cfile */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		0431D8FD21C0ED27007D68BC /* cfile */ = {
+			isa = PBXGroup;
+			children = (
+				0431D90121C0ED38007D68BC /* esShader.c */,
+				0431D8FF21C0ED38007D68BC /* esShapes.c */,
+				0431D8FE21C0ED38007D68BC /* esTransform.c */,
+				0431D90021C0ED38007D68BC /* esUtil.c */,
+			);
+			path = cfile;
+			sourceTree = "<group>";
+		};
+		0431D90621C0EF63007D68BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0431D90921C0EF6E007D68BC /* GLKit.framework */,
+				0431D90721C0EF63007D68BC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		048889E421C0E05000F8949F = {
 			isa = PBXGroup;
 			children = (
 				048889EF21C0E05000F8949F /* Opengles-IOS */,
 				048889EE21C0E05000F8949F /* Products */,
+				0431D90621C0EF63007D68BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,19 +114,8 @@
 		048889EF21C0E05000F8949F /* Opengles-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				048889F021C0E05000F8949F /* AppDelegate.h */,
-				048889F121C0E05000F8949F /* AppDelegate.m */,
-				048889F321C0E05000F8949F /* GameScene.sks */,
-				048889F521C0E05000F8949F /* Actions.sks */,
-				048889F721C0E05000F8949F /* GameScene.h */,
-				048889F821C0E05000F8949F /* GameScene.m */,
-				048889FA21C0E05000F8949F /* GameViewController.h */,
-				048889FB21C0E05000F8949F /* GameViewController.m */,
-				048889FD21C0E05000F8949F /* Main.storyboard */,
-				04888A0021C0E05200F8949F /* Assets.xcassets */,
-				04888A0221C0E05200F8949F /* LaunchScreen.storyboard */,
 				04888A0521C0E05200F8949F /* Info.plist */,
-				04888A0621C0E05200F8949F /* main.m */,
+				0431D8F621C0EC75007D68BC /* common */,
 			);
 			path = "Opengles-IOS";
 			sourceTree = "<group>";
@@ -140,10 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				048889FF21C0E05000F8949F /* Main.storyboard in Resources */,
-				048889F421C0E05000F8949F /* GameScene.sks in Resources */,
 				04888A0121C0E05200F8949F /* Assets.xcassets in Resources */,
 				04888A0421C0E05200F8949F /* LaunchScreen.storyboard in Resources */,
-				048889F621C0E05000F8949F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048889F921C0E05000F8949F /* GameScene.m in Sources */,
-				048889FC21C0E05000F8949F /* GameViewController.m in Sources */,
+				0431D90221C0ED38007D68BC /* esTransform.c in Sources */,
+				0431D90421C0ED38007D68BC /* esUtil.c in Sources */,
+				0431D90521C0ED38007D68BC /* esShader.c in Sources */,
+				0431D8FB21C0ED0B007D68BC /* FileWrapper.m in Sources */,
 				04888A0721C0E05200F8949F /* main.m in Sources */,
+				0431D8FC21C0ED0B007D68BC /* ViewController.m in Sources */,
 				048889F221C0E05000F8949F /* AppDelegate.m in Sources */,
+				0431D90321C0ED38007D68BC /* esShapes.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -287,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -301,7 +341,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../opengles3-book/Common/Include\"";
 				INFOPLIST_FILE = "Opengles-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +360,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../opengles3-book/Common/Include\"";
 				INFOPLIST_FILE = "Opengles-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
