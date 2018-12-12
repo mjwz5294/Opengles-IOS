@@ -37,6 +37,7 @@
 
 #import "ViewController.h"
 #include "esUtil.h"
+//#include "../2helloTriangle/Hello_Triangle.c"
 
 extern void esMain( ESContext *esContext );//这里只是声明方法，具体的实现要到各个实例中完成
 
@@ -107,7 +108,7 @@ extern void esMain( ESContext *esContext );//这里只是声明方法，具体�
 
     memset( &_esContext, 0, sizeof( _esContext ) );
 
-//    esMain( &_esContext );
+    esMain( &_esContext );
 }
 
 - (void)tearDownGL

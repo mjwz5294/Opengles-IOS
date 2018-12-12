@@ -15,6 +15,7 @@
 		0431D90521C0ED38007D68BC /* esShader.c in Sources */ = {isa = PBXBuildFile; fileRef = 0431D90121C0ED38007D68BC /* esShader.c */; };
 		0431D90821C0EF63007D68BC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431D90721C0EF63007D68BC /* OpenGLES.framework */; };
 		0431D90A21C0EF6E007D68BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431D90921C0EF6E007D68BC /* GLKit.framework */; };
+		0431D90D21C116FE007D68BC /* Hello_Triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 0431D90C21C116FE007D68BC /* Hello_Triangle.c */; };
 		048889F221C0E05000F8949F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048889F121C0E05000F8949F /* AppDelegate.m */; };
 		048889FF21C0E05000F8949F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048889FD21C0E05000F8949F /* Main.storyboard */; };
 		04888A0121C0E05200F8949F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04888A0021C0E05200F8949F /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		0431D90121C0ED38007D68BC /* esShader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShader.c; sourceTree = "<group>"; };
 		0431D90721C0EF63007D68BC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		0431D90921C0EF6E007D68BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0431D90C21C116FE007D68BC /* Hello_Triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Hello_Triangle.c; sourceTree = "<group>"; };
 		048889ED21C0E05000F8949F /* Opengles-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opengles-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048889F021C0E05000F8949F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048889F121C0E05000F8949F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0431D90B21C116A5007D68BC /* 2helloTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				0431D90C21C116FE007D68BC /* Hello_Triangle.c */,
+			);
+			path = 2helloTriangle;
+			sourceTree = "<group>";
+		};
 		048889E421C0E05000F8949F = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				04888A0521C0E05200F8949F /* Info.plist */,
+				0431D90B21C116A5007D68BC /* 2helloTriangle */,
 				0431D8F621C0EC75007D68BC /* common */,
 			);
 			path = "Opengles-IOS";
@@ -195,6 +206,7 @@
 				0431D90521C0ED38007D68BC /* esShader.c in Sources */,
 				0431D8FB21C0ED0B007D68BC /* FileWrapper.m in Sources */,
 				04888A0721C0E05200F8949F /* main.m in Sources */,
+				0431D90D21C116FE007D68BC /* Hello_Triangle.c in Sources */,
 				0431D8FC21C0ED0B007D68BC /* ViewController.m in Sources */,
 				048889F221C0E05000F8949F /* AppDelegate.m in Sources */,
 				0431D90321C0ED38007D68BC /* esShapes.c in Sources */,
